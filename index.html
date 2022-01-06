@@ -18,22 +18,38 @@
 <body>
     <h1> Rock, Paper, Scissors, Lizard Spoke Game</h1>
     <h2 id ="game-area"> Want To Try Your Luck!</h2>
-    <!-- container -->
+    <!-- Container -->
     <div class ="container">
-        <!-- Frist sction-->
+        <!-- User section-->
         <div class="score-area">
             <div class="scores">
-                <h3> <p class="scores">User Score <span id="score">0</span></p>
-                    <p class="scores">Computer Score<span id="score">0</span></p></p></h3>
+                <h3> <p class="scores">User Score <span id="score">0</span></p></h3>
+                    
             </div>
         </div class ="display">
-        <i class="far fa-hand-rock"></i>
-        <i class="far fa-hand-scissors"></i>
-        <i class="far fa-hand-paper"></i>
-        <i class="far fa-hand-lizard"></i>
         <i class="far fa-hand-peace"></i>
         </div>
     </div>
+    <!--  Computer section  -->
+    <div class="score-area">
+        <div class="scores">
+           <h3> <p class="scores">Computer Score<span id="score"> 0</span></p></p></h3>
+        </div>
+        <div class="display">
+            <i class="far fa-hand-paper"></i>
+        </div>
+    </div>
+</div>
+    <h2 id="game-area">which will you pick ! <i class="fas fa-arrow-circle-down"></i></h2>
+    <!-- Game Buttons   -->
+    <div class="selection">
+        <button class= "far fa-hand-rock" id="rock"></button>
+        <button class="far fa-hand-paper" id="paper"></button>
+        <button class="far fa-hand-scissors" id="scissors"></button>
+        <button class="far fa-hand-lizard" id="lizard"></button>
+        <button class="far fa-hand-peace" id ="Spoke"></button>
+    </div>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
