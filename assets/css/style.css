@@ -1,0 +1,24 @@
+
+/* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */ 
+.modal-bg {
+    display: none;
+
+}
+.modal {
+    display: none;
+}
+
+.rules-button{
+    border: 1px solid orangered;
+    padding: 5px 25px;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.rules-button:hover{
+
+    background-position: left botton;
+    color: pink;
+}
