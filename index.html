@@ -8,8 +8,10 @@
     <!-- font awesome and google fonts -->
     <script src="https://kit.fontawesome.com/342af78c12.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -18,9 +20,10 @@
 </head>
 <body>
     <h1> Rock, Paper, Scissors, Lizard Spoke Game</h1>
-    <h2 id ="game-area"> Want To Try Your Luck!</h2>
+    <h2 id ="game-area">Do you want To Try Your Luck!</h2>
     <!-- Container -->
     <div class ="container">
+        <section>
         <!-- User section-->
         <div class="score-area">
             <div class="scores">
@@ -28,10 +31,12 @@
             </div>
              
         </div class ="display">
-        <i class="far fa-hand-peace"></i>
+        <!-- <i class="far fa-hand-spock"></i>--><i class="far fa-hand-spock"></i>
         </div>
     </div>
+    </section>
     <!--  Computer section  -->
+    <section>
     <div class="score-area">
         <div class="scores">
            <h3> <p class="scores">Computer Score<span id="score-count"> 0</span></p></p></h3>
@@ -42,7 +47,8 @@
         </div>
     </div>
 </div>
-    <h2 id="game-area">which will you pick ! <i class="fas fa-arrow-circle-down"></i></h2>
+</section>
+    <h2 id="game-area">Which will you pick ! <i class="fas fa-arrow-circle-down"></i></h2>
     <!-- Game Buttons Section  -->
     <div class="selection">
         <button class= "far fa-hand-rock" id="rock"></button>
@@ -53,7 +59,7 @@
         
     </div>
 
-    <!--rules-->
+    <!--rules section-->
     <button class="rules-button">Rules</button>
     <div class="modal-bg"></div>
     <div class= "modal">
