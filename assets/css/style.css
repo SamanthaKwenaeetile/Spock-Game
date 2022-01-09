@@ -1,18 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* --------- Global style */
+
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
 }
+/* --------- Heading */
 h1{
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     margin: 15px 0;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
 }
 .container{
     display: flex;
