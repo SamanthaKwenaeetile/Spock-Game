@@ -1,13 +1,14 @@
 /* --------- Global style */
 
-body{
+body {
     background-color: white;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     color: #445361;
     text-align: center;
 }
+
 /* --------- Heading */
-h1{
+h1 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
     margin: 15px 0;
@@ -15,8 +16,9 @@ h1{
     color: black;
     background-color: whitesmoke;
 }
+
 /* --------- Game layout */
-.score-area{
+.score-area {
     background-color: whitesmoke;
     box-sizing: border-box;
     width: 95%;
@@ -25,65 +27,71 @@ h1{
     max-width: 930px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
 /* --------- score area */
-.score-area{
+.score-area {
     margin: 5px auto;
     width: 60%;
     font-size: 1.0rem;
 }
 
-.controls-area{
+.controls-area {
     width: 85%;
     margin: 30px auto;
 }
-h2{
+
+h2 {
     font-family: sans-serif;
     font-weight: bold;
     padding: 5px;
 }
-/* --------- Buttons */
-.selection{
+
+/* --------- Buttons  some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
+.selection {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 750px;
     height: 100px;
 }
-.selection button{
+
+.selection button {
     margin: 0 20px;
     padding: 25px;
     border-radius: 50%;
     border: none;
     outline: none;
     cursor: pointer;
-    background : rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     font-size: 33px;
     color: rgb(175, 47, 164);
-    
+
 }
 
-.display i{
+.display i {
     font-size: 50px;
     color: rgb(175, 47, 164);
 }
-h2{
+
+h2 {
     font-family: sans-serif;
     font-weight: bold;
     padding: 5px;
 }
 
-/* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */ 
+/* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */
 .modal-bg {
     display: none;
 
 }
+
 .modal {
     display: none;
 }
 
-.rules-button{
+.rules-button {
     border: 1px solid orangered;
     padding: 5px 25px;
     border-radius: 5px;
@@ -92,7 +100,8 @@ h2{
     bottom: 20px;
     cursor: pointer;
 }
-.rules-button:hover{
+
+.rules-button:hover {
 
     background-position: left botton;
     color: pink;
