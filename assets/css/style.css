@@ -64,6 +64,16 @@ h2{
     
 }
 
+.display i{
+    font-size: 50px;
+    color: rgb(175, 47, 164);
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
 /* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */ 
 .modal-bg {
     display: none;
