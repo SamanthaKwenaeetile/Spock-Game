@@ -4,6 +4,4 @@ https://www.youtube.com/watch?v=DyqMglmrido and https://javascript.plainenglish.
 // start the game 
 startGame();
   
-function startGame() {
-    
-   
+function startGame() 
