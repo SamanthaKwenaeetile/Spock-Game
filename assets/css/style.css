@@ -55,18 +55,20 @@ h2 {
     justify-content: center;
     width: 750px;
     height: 100px;
+
 }
 
 .selection button {
     margin: 0 20px;
-    padding: 25px;
+    padding: 45px;
     border-radius: 50%;
     border: none;
     outline: none;
     cursor: pointer;
     background: rgb(255, 255, 255);
-    font-size: 33px;
+    font-size: 45px;
     color: rgb(175, 47, 164);
+    
 
 }
 
@@ -90,7 +92,7 @@ h2 {
 .modal {
     display: none;
 }
-
+/* ask help with code below */
 .rules-button {
     border: 1px solid orangered;
     padding: 5px 25px;
