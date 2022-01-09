@@ -5,6 +5,9 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #445361;
     text-align: center;
+    border: 15px sandybrown;
+    padding: 30px;
+    margin: 20px;
 }
 
 /* --------- Heading */
@@ -49,6 +52,7 @@ h2 {
 }
 
 /* --------- Buttons  some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
+/* ask help with code below */
 .selection {
     display: flex;
     align-items: center;
@@ -61,13 +65,14 @@ h2 {
 .selection button {
     margin: 0 20px;
     padding: 45px;
-    border-radius: 50%;
+    border-radius: 70%;
     border: none;
     outline: none;
     cursor: pointer;
     background: rgb(255, 255, 255);
     font-size: 45px;
     color: rgb(175, 47, 164);
+    
     
 
 }
@@ -80,7 +85,7 @@ h2 {
 h2 {
     font-family: sans-serif;
     font-weight: bold;
-    padding: 5px;
+    padding: 6px;
 }
 
 /* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */
@@ -94,7 +99,7 @@ h2 {
 }
 /* ask help with code below */
 .rules-button {
-    border: 1px solid orangered;
+    border: 1px solid rgb(255, 0, 0);
     padding: 5px 25px;
     border-radius: 5px;
     position: absolute;
