@@ -87,29 +87,25 @@ h2 {
     font-weight: bold;
     padding: 6px;
 }
+/* Footer */
 
-/* rule section - some code taken from competent programming - https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=20  */
-.modal-bg {
-    display: none;
-
-}
-
-.modal {
-    display: none;
-}
-/* ask help with code below */
-.rules-button {
-    border: 1px solid rgb(255, 0, 0);
-    padding: 5px 25px;
-    border-radius: 5px;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    cursor: pointer;
-}
-
-.rules-button:hover {
-
-    background-position: left botton;
-    color: pink;
-}
+footer {
+    height: 150px;
+    text-align: center;
+    padding: 5% 10%;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks>li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+  }
