@@ -50,8 +50,8 @@ h1 {
 }
 .scores{
     margin-left: 1rem;
-    font-size: small;
-    color: rgb(4, 15, 15);
+    font-size: medium;
+    color: rgb(7, 7, 7);
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 
 
 /* --------- Buttons  some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
-/* ask help with code below */ 
+
 #selection {
     display: flex;
     align-items: center;
