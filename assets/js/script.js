@@ -19,7 +19,7 @@ const text2 = document.getElementById('display2');
 const game = () =>{
     buttons.forEach(btn =>{
         btn.addEventListener('click',(e)=>{
-        // Random rock paper scissor for the computer and the player
+        // Random selection for the computer and the player
            let clickedBtn = e.target.className;
            displayIcon.className = clickedBtn;
            let randomNum = Math.floor(Math.random() * randomClasses.length);
@@ -34,4 +34,57 @@ const game = () =>{
                text2.innerHTML = text.innerHTML;
                text2.style.color = 'black';
            }
+         // if it's not a Tie.
+         else if(displayIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[2]){
+            pScore.innerHTML = userplayer;
+            userplayer++;
+            text.innerHTML = " You Win ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+        }else if(showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[1]){
+            cScore.innerHTML = computerplayer;
+            computerplayer++;
+            text.innerHTML = "You Loose ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+        }else if(displayIcon.className === randomClasses[1] && computerdisplayIcon.className === randomClasses[2]){
+            cScore.innerHTML = computerplayer;
+            computerplayer++;
+            text.innerHTML = "You Loosed ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+        }else if(showIcon.className === randomClasses[1] && computerdisplayIcon.className === randomClasses[0]){
+            pScore.innerHTML = userplayer;
+            userplayer++;
+            text.innerHTML = "You Win ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+        }else if(displayIcon.className === randomClasses[2] && computerdisplayIcon.className === randomClasses[0]){
+            cScore.innerHTML = computerplayer;
+            computerplayer++;
+            text.innerHTML = "You Loosed ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+        }else if(showIcon.className === randomClasses[2] && computerdisplayIcon.className === randomClasses[1]){
+            pScore.innerHTML = userplayer;
+            userplayer++;
+            text.innerHTML = "You Win ! ";
+            text.style.color = 'red';
+            text2.innerHTML = text.innerHTML;
+            text2.style.color = 'red';
+
+        }
+    });
+});
+}
+
         
+
+        
+
+
