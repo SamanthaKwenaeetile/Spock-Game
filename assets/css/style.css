@@ -17,7 +17,7 @@ h1 {
     margin: 15px 0;
     text-align: center;
     color: black;
-    background-color: whitesmoke;
+    background-color: rgb(167, 33, 33);
 }
 
 /* --------- Game layout */
@@ -62,7 +62,8 @@ h2 {
 
 
 
-/* --------- Buttons  some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
+/* --------- Buttons  
+some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
 
 #selection {
     display: flex;
@@ -133,3 +134,30 @@ footer {
     padding: 5%;
     color: #3a3a3a;
   }
+
+    /* For desktops and large screens*/
+@media screen and (max-width: 1025pxpx) and (max-width: 1200px) {
+    body {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        background-color: white;
+    }
+    /* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    body {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        background-color: white;
+  }
+  /* for mobile devices */
+  @media screen and (max-width: 320px) and (max-width: 480px){
+    body {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        background-color: white;
+    }
+}
+

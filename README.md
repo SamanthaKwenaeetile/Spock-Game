@@ -1,4 +1,5 @@
 ## About
+![Site screenshot](https://user-images.githubusercontent.com/74901613/148758000-3308e81a-a206-4270-b1b2-4b86c0efd5fc.png")
 
 **Rock, Paper, Scissors, Lizard, Spock Game** it is a gameing site for fans of the big bang theory and star trek new or old who would like to have a go playing the game they seen thier favorite characters playing.
 
@@ -8,16 +9,11 @@ The goal of the Spock Game website is to provide a game which users that would l
 
 link to [live site] (https://samanthakwenaeetile.github.io/Spock-Game/ )
 
-## **Contents**
+## Features
 
-
-## **UX (User Experience)**
-
-### **User Stories**
-
-### **Site Owner Goals** 
-
-## **Design Choices**
+- Score tracking system the user can keep score of how many points they have or if they have won over the computer
+- The user as the ability to play against the computer
+- Pattern matching funtionlity on the game.
 
 ### **Fonts**
 
@@ -29,14 +25,20 @@ The spock game site will follow the big bang logo colour scheme throughout the s
 
 The colours that where chosen are:
 
-![Coolors Palette](assets/colour.png)
+- whitesmoke;
+- rgb(7, 7, 7);
+- rgb(185, 16, 16);
+- rgb(12, 11, 12); 
+- #3a3a3a; 
+- #445361;
 
-### **Imagery**
 
-### **Wireframes**
+### Validator Testing
 
-## **Technologies**
-
+ __HTML__
+  - 16 errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-emerald-lobster-sckuvda8.ws-eu25.gitpod.io%2F)
+ __CSS__
+  - Three errors were found when passing through the official [(Jigsaw) validator](
 
 ### **Languages**
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -44,11 +46,7 @@ The colours that where chosen are:
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - Used to style the individual webpages.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    - Used to show the questions through pagination and for the game play.
-
-    ### **Services**
-    - [emailJS](https://www.emailjs.com/) 
-    - Used with the contact form to receive the comments from users
+    - Used to show the score and for the game play.
 
     ### **Tools**
 
@@ -61,12 +59,8 @@ The colours that where chosen are:
  spinning turtle home button
 - [Google fonts](https://fonts.google.com/)
   - Used to compare and choose fonts. 
-- [Coolors](https://coolors.co/)
-  - Used to research and choose the colour scheme by comparing and contrasting similar colours in the generator.
 - [Favicons](https://favicon.io/)
   - Used to generate a favicon for the website title.
-
-
 
 ## **Deployment**
 The project was developed using [GitPod] (https://gitpod.io/) and pushed to [GitHub](https://github.com/) as follows:
@@ -79,23 +73,21 @@ To deploy the page to **GitHub Pages** these steps were taken:
 4. Under **Sources** select **None** and then **Master Branch**.
 5. The site automatically refreshes and the website delpoyed proving the  link: https://samanthakwenaeetile.github.io/Spock-Game/ 
 
+### Content 
 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-
-
-
+- The icons for the buttons were taken from [Font Awesome](https://fontawesome.com/)
 
 ## **Credits**
 
-### **Code**
+### code snippets**
 
 - CodeInstitute Full Stack Developer Course
--
--
--
-
+- https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d 
+- https://www.youtube.com/watch?v=lV2BMXdsDmc&t=1747s
 
 ### **Acknowledgements**
  
- -
- - 
+ - Many thanks to Tutor Assistance team for help me with my site.
+ 
