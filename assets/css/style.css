@@ -71,7 +71,7 @@ h2 {
     width: 750px;
     height: 100px;
     cursor: pointer;
-    transition: 100ms; 
+    
 
 }
 
@@ -82,9 +82,10 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    background: rgb(255, 255, 255);
-    font-size: 45px;
-    color: rgb(175, 47, 164);
+    background: rgb(185, 16, 16);
+    font-size: 35px;
+    color: rgb(12, 11, 12);
+    margin-left: 200px;
     
     
     
