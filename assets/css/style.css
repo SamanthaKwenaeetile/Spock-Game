@@ -91,9 +91,7 @@ h2 {
 
 }
 
-.selection:hover{
-    transform: scale(1.5);
-}
+
 
 .display i {
     font-size: 50px;
