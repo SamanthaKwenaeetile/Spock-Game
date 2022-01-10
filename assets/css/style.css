@@ -63,8 +63,8 @@ h2 {
 
 
 /* --------- Buttons  some code taken from - https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d */
-/* ask help with code below */ - should be centered -fixed 
-.selection {
+/* ask help with code below */ 
+#selection {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@ h2 {
 
 }
 
-.selection button {
+#selection button {
     margin: 0 20px;
     padding: 45px;
     border-radius: 70%;
@@ -93,7 +93,13 @@ h2 {
 
 
 
-.display i {
+.userdisplay {
+    font-size: 50px;
+    color: rgb(175, 47, 164);
+    opacity: 5;
+}
+
+.computerdisplay{
     font-size: 50px;
     color: rgb(175, 47, 164);
     opacity: 5;

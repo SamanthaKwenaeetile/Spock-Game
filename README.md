@@ -6,7 +6,7 @@ I desgined the site to follow the big bang theory show logo colour scheme and to
 
 The goal of the Spock Game website is to provide a game which users that would like to try out playing a spock game will have a chance to play it or returing users who have played similair games. The site will also encourage feedback from the users by a contact form. 
 
-link to [live site]
+link to [live site] (https://samanthakwenaeetile.github.io/Spock-Game/ )
 
 ## **Contents**
 
@@ -65,3 +65,37 @@ The colours that where chosen are:
   - Used to research and choose the colour scheme by comparing and contrasting similar colours in the generator.
 - [Favicons](https://favicon.io/)
   - Used to generate a favicon for the website title.
+
+
+
+## **Deployment**
+The project was developed using [GitPod] (https://gitpod.io/) and pushed to [GitHub](https://github.com/) as follows:
+
+To deploy the page to **GitHub Pages** these steps were taken:
+
+1. Log in to **GitHub**. 
+2. Select **samanthakwenaeetile/spock-game**
+3. Click settings and scroll down to **Pages**.
+4. Under **Sources** select **None** and then **Master Branch**.
+5. The site automatically refreshes and the website delpoyed proving the  link: https://samanthakwenaeetile.github.io/Spock-Game/ 
+
+
+
+
+
+
+
+## **Credits**
+
+### **Code**
+
+- CodeInstitute Full Stack Developer Course
+-
+-
+-
+
+
+### **Acknowledgements**
+ 
+ -
+ - 
